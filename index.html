@@ -106,7 +106,7 @@
                             <div class="col-lg-11">
                                 <div class="hero__caption">
                                     <div class="stock-text" data-animation="fadeInUp" data-delay=".8s">
-                                        <h2 style="font-size:5em; letter-spacing:2px; font-weight:bold; text-align:center; width:100%;">NEW COMPANY FOR TRADING AND CONTRACTING</h2>
+                                        <h2 class="hero-title-en" style="font-size:5em; letter-spacing:2px; font-weight:bold; text-align:center; width:100%;">NEW COMPANY FOR TRADING AND CONTRACTING</h2>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
                             <div class="col-lg-11">
                                 <div class="hero__caption">
                                     <div class="stock-text" data-animation="fadeInUp" data-delay=".8s">
-                                        <h2 style="font-size:5em; letter-spacing:2px; font-weight:bold; direction:rtl; font-family:'Cairo', 'Tajawal', Arial, sans-serif; text-align:center; width:100%;">الشركة الجديدة للتجارة والمقاولات</h2>
+                                        <h2 class="hero-title-ar" style="font-size:5em; letter-spacing:2px; font-weight:bold; direction:rtl; font-family:'Cairo', 'Tajawal', Arial, sans-serif; text-align:center; width:100%;">الشركة الجديدة للتجارة والمقاولات</h2>
                                     </div>
                                 </div>
                             </div>
@@ -137,6 +137,30 @@
         <!-- slider Area for Arabic Name End -->
     <!-- حذف الاسم العربي المنسق القديم لأنه أصبح ضمن السلايدر الجديد -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Tajawal:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+    /* Responsive hero titles for slider */
+    .hero-title-en, .hero-title-ar {
+        font-size: 5em;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0;
+        line-height: 1.1;
+    }
+    @media (max-width: 991px) {
+        .hero-title-en, .hero-title-ar {
+            font-size: 2.2em;
+        }
+    }
+    @media (max-width: 600px) {
+        .hero-title-en, .hero-title-ar {
+            font-size: 1.3em;
+            padding: 0 5px;
+        }
+    }
+    </style>
 	<!-- JS here -->
 	
 		<!-- All JS Custom Plugins Link Here here -->
